@@ -1,0 +1,12 @@
+newfile=open("work1.txt","w")
+newfile.write("Ria institute of technology  \n ria is at marthall banglore \n we are the developers ")
+data=newfile.read()
+print(data)
+newfile.readline()
+newfile.readline()
+data1=newfile.items()
+print(data)
+print(data1)
+
+print()
+print(data1[])
