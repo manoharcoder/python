@@ -9,9 +9,9 @@
 
 # all the entities instantiate feom a class  so (list,bool,function ) they are all objects
 
-# #dir()
-# num=[1,2,3,4,5]
-# print(dir(num))
+#dir()
+num=[1,2,3,4,5]
+print(dir(num))
 # r=num.__add__([6,7,8,9])
 # print(r)
 # R=num+[1,2,3,4,5]

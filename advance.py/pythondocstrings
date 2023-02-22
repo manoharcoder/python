@@ -1,0 +1,23 @@
+# """takes a two arguments
+# returns sum.
+# """
+# def add_num(a,b):
+#     return a+b
+# print(add_num(1,2))
+
+
+def add_num(a,b):
+    """takes a two arguments
+    returns sum.
+    """
+    return a+b
+print(add_num(1,2))
+print(add_num.__doc__) # if there no doctsting return a none
+
+
+import math
+print(math.__doc__)
+print(math.sqrt.__doc__)
+
+# doctdstring must be writen at the postion after function decleration but not inside of function body that it treated as comments
+# must be use mutiline comments at start

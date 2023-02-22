@@ -27,7 +27,7 @@ print("------------------------------------------------------------------------"
 # num=int(input("enter number to conert them in to different format::"))
 # print("integer format %i"%num)
 # print("floating point format %f"%num)
-# print("complex number format %complex"%num)
+# #print("complex number format %complex"%num)
 # #print("binary format %binary"%num)
 # print("octal format %o"%num)
 # print("hexadecimal format %x"%num)
@@ -78,13 +78,13 @@ print("------------------------------------------------------------------------"
 #     print(f.seek(35))
 #     print(f.read())
   
-# with open("test.txt","r") as f:
-#     mylist=f.readlines()
-#     print(mylist)
-#     for idx,i in enumerate(mylist):
-#         if idx==4:
-#             continue
-#         print(i)
+with open("test.txt","r") as f:
+    mylist=f.readlines()
+    print(mylist)
+    for idx,i in enumerate(mylist):
+        if idx==4:
+            continue
+        print(i)
 
 
 print("------------------------------------------------------------------------")
@@ -108,10 +108,10 @@ print("------------------------------------------------------------------------"
 # x=5.34546
 # y=6
 # z=x+y
-# print("the value of x is {} and value of y is {} then the sum is {}".format(x,y,z))
-# print(f"the value of x is {x} and value of y is {y} then the sum is {z}")
-# print("the value of x is ",x," and value of y is ",y," then the sum is ",z)
-# print("hello{name}\n{greeting}".format(greeting='good morning',name="manu"))
+# # print("the value of x is {} and value of y is {} then the sum is {}".format(x,y,z))
+# # print(f"the value of x is {x} and value of y is {y} then the sum is {z}")
+# # print("the value of x is ",x," and value of y is ",y," then the sum is ",z)
+# # print("hello{name}\n{greeting}".format(greeting='good morning',name="manu"))
 # print("the int value of x is %i"%x)
 # print("the float value of x is %f"%x)
 # print("the float with truncated floating values  x is %0.2f"%x)
@@ -129,8 +129,8 @@ print("------------------------------------------------------------------------"
 
 print("------------------------------------------------------------------------")
 
-# #9).check file is empty or not 
-# f=open("sample.txt","r")
+# # #9).check file is empty or not 
+# f=open("test.txt","r")
 # starting_point=f.tell()
 # f.read()
 # ending_point=f.tell()
@@ -142,13 +142,13 @@ print("------------------------------------------------------------------------"
 # f.seek(0)
 # print(f.read())
 
-# another way
-import os
-size=os.stat("sample.txt").st_size
-if size==0:
-    print("file is empty")
-else:
-    print("file is not empty")
+#another way
+# import os
+# size=os.stat("sample.txt").st_size
+# if size==0:
+#     print("file is empty")
+# else:
+#     print("file is not empty")
 
 print("------------------------------------------------------------------------")
 
@@ -163,15 +163,15 @@ print("------------------------------------------------------------------------"
 #line7
 
 # with open("test.txt","r") as f:
-#     mylist=f.readlines()
-#     print(mylist)
+# #     mylist=f.readlines()
+# #     print(mylist[3])
 
-# #in another way 
+# # #in another way 
 
-#     print("line no.4 is",mylist[3])
-#     for idx,i in enumerate(mylist):
-#         if idx==3:
-#             print(i)
+# print("line no.4 is",mylist[3])
+# for idx,i in enumerate(mylist):
+#     if idx==3:
+#         print(i)
 
 
 
